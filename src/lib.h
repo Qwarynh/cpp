@@ -9,9 +9,9 @@ public:
 	int division(int a, int b);
 
 protected:
-    int nombre_1;
-    int nombre_2;
 
 
 private:
 };
+
+
