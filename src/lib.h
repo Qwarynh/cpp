@@ -2,12 +2,11 @@
 class calcul // classe abstraite
 {
 public:
-    calcul();//constructeur
-    calcul(int nombre_1, int nombre_2);
-    ~calcul();//destructeur
-    
 
-        int somme(int nombre_1, int nombre_2);
+
+        int somme(int a, int b);
+	int multiplication(int a, int b);
+	int division(int a, int b);
 
 protected:
     int nombre_1;

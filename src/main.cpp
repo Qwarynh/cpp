@@ -16,11 +16,17 @@ std::cin >> b;
 std::cout<< "La somme est" << std::endl;
 
 
-calcul* calcul1 = new calcul(a, b);
+calcul* calcul1 = new calcul;
+calcul calcul2;
 ecole ecole1;
 
+calcul1->somme(a,b);
 
 std::cout << "la date de creation de l'ecole est " << ecole1.date()<<std::endl;
+
+
+calcul2.multiplication(a, b);
+calcul2.division(a, b);
 
 
 return 0;

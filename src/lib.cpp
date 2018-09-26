@@ -2,15 +2,29 @@
 #include <iostream>
 
 
-calcul::calcul(int nombre_1, int nombre_2)
-{
-    somme(nombre_1, nombre_2);
 
-}
+int calcul::somme(int a, int b){
 
-int calcul::somme(int nombre_1, int nombre_2){
-
-std::cout<< nombre_1+nombre_2 <<std::endl;
+std::cout<< a+b <<std::endl;
 
 return 0;
-}
+};
+
+int calcul::multiplication(int a, int b){
+
+std::cout<< a*b << std::endl;
+
+return 0;
+};
+
+int calcul::division(int a, int b){
+
+if (b==0){
+
+std::cout<< "erreur" <<std::endl;
+} else{
+
+std::cout<< a/b << std::endl;
+};
+return 0;
+};
